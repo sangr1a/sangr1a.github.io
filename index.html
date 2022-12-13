@@ -1,0 +1,330 @@
+<!doctype html>
+<html class="no-js" lang="zxx">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <title>Cyb3r1a</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <link rel="shortcut icon" type="image/x-icon" id="favicon" href="img/favicon.png">
+
+    <!-- CSS here -->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/magnific-popup.css">
+    <link rel="stylesheet" href="css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/themify-icons.css">
+    <link rel="stylesheet" href="css/nice-select.css">
+    <link rel="stylesheet" href="css/flaticon.css">
+    <link rel="stylesheet" href="css/animate.css">
+    <link rel="stylesheet" href="css/slick.css">
+    <link rel="stylesheet" href="css/slicknav.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/table.css">
+</head>
+
+<body>
+<!-- заголовок с меню -->
+<header>
+    <div class="header-area ">
+        <div id="sticky-header" class="main-header-area">
+            <div class="container-fluid">
+                <div class="header_bottom_border">
+                    <div class="row align-items-center">
+                        <div class="col-xl-3 col-lg-2">
+                            <div class="logo">
+                                <a id="backgrnd" href="index.html">
+                                    <img src="img/logo.png" style="height: 36px; width: 130px;" alt="">
+                                </a>
+                            </div>
+                        </div>
+                        <div class="col-xl-6 col-lg-7">
+                            <div class="main-menu  d-none d-lg-block">
+                                <nav>
+                                    <ul id="navigation">
+                                        <li><a class="active" href="index.html">Главная</a></li>
+                                        <li><a href="about.html">О нас</a></li>
+                                        <li><a>Киберспорт</a>
+                                            <ul class="submenu">
+                                                <li><a href="news.html">Новости</a></li>
+                                                <li><a href="tournaments.html">Турниры</a></li>
+                                                <li><a href="error-page.html">Справочная</a></li>
+                                            </ul>
+                                        </li>
+                                        <li><a href="shop-prev.html">Магазин</a>
+                                        </li>
+                                        <li><a href="contact.html">Обратная связь</a></li>
+                                    </ul>
+                                </nav>
+                            </div>
+                        </div>
+                        <div class="col-xl-3 col-lg-3 d-none d-lg-block">
+                            <div class="social_icon text-right">
+                                <ul>
+                                    <li><a href="#" id="btn" class="hint-bottom"  onclick="toggleTheme()" data-hint="Поменять тему"><i class="fa fa-question"></i></a></li>
+                                    <script src="js/toogle-dark-light.js"></script>
+                                    <li><a href="error-page.html" class="hint-bottom" data-hint="Войти"><i class="fa fa-check"></i></a></li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="col-12">
+                            <div class="mobile_menu d-block d-lg-none"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</header>
+<!-- !заголовок с меню -->
+    <!-- !заголовочная часть -->
+    <div class="slider_area">
+        <div class="single_slider  d-flex align-items-center slider_bg_1 overlay2" id="background">
+            <div class="container">
+                <div class="row">
+                    <div class="col-xl-12">
+                        <div class="slider_text text-center ">
+                            <h3>Добро пожаловать</h3>
+                            <button class="genric-btn.danger" onclick="smooth_click()" style="
+                                    color: white;
+                                    border-color: white;
+                                    background: transparent;
+                                    width:80.2%;">
+                                <i class="fa fa-chevron-down" ></i>
+                                <script>
+                                    function smooth_click(){
+                                        const element = document.getElementById('content');
+                                        element.scrollIntoView({behavior: "smooth"});
+                                    }
+                                </script>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- !заголовочная часть -->
+    <!-- recent matches -->
+    <div class="section_title text-center mb-65" id="content">
+        <h3>&nbsp</h3>
+    </div>
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-8 mb-5 mb-lg-0">
+                    <div class="section_title text-center mb-65" style="margin-bottom: 0px;">
+                    <h3 class="hint-top"  data-hint="Нажми строки таблицы, чтобы посмотреть все матчи турнира">Недавние матчи</h3>
+                </div>
+                    <div class="table-responsive">
+                        <table class="table">
+                            <tbody class="table-body">
+                            <tr class="cell-1" data-toggle="collapse" data-target="#tour1">
+                                <td>23/11 - 27/11</td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                                <td colspan="2" align="end">BLAST Premier Fall Final 2022</td>
+                            </tr>
+                            <tr id="tour1" class="collapse cell-1 row-child">
+                                <td>24/11</td>
+                                <td colspan="1" class="text-center">NaVi</td>
+                                <td colspan="1" class="text-center">1 : 2</td>
+                                <td colspan="1" class="text-center">Liquid</td>
+                                <td colspan="2" align="end">20:10</td>
+                            </tr>
+                            <tr id="tour1" class="collapse cell-1 row-child">
+                                <td>24/11</td>
+                                <td colspan="1" class="text-center">Faze</td>
+                                <td colspan="1" class="text-center">2 : 0</td>
+                                <td colspan="1" class="text-center">Heroic</td>
+                                <td colspan="2" align="end">15:30</td>
+                            </tr>
+                            <tr id="tour1" class="collapse cell-1 row-child">
+                                <td>25/11</td>
+                                <td colspan="1" class="text-center">NIP</td>
+                                <td colspan="1" class="text-center">2 : 1</td>
+                                <td colspan="1" class="text-center">NaVi</td>
+                                <td colspan="2" align="end">21:25</td>
+                            </tr>
+                            <tr id="tour1" class="collapse cell-1 row-child">
+                                <td>27/11</td>
+                                <td colspan="1" class="text-center">Heroic</td>
+                                <td colspan="1" class="text-center">2 : 1</td>
+                                <td colspan="1" class="text-center">FaZe</td>
+                                <td colspan="2" align="end">20:00</td>
+                            </tr>
+                            <tr class="cell-1" data-toggle="collapse" data-target="#tour2">
+                                <td>09/12 – 12/12</td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                                <td colspan="2" align="end">Red Bull Home Ground #3</td>
+                            </tr>
+                            <tr id="tour2" class="collapse cell-1 row-child">
+                                <td>09/12</td>
+                                <td colspan="1" class="text-center">Liquid</td>
+                                <td colspan="1" class="text-center">1 : 2</td>
+                                <td colspan="1" class="text-center">100 Thieves</td>
+                                <td colspan="2" align="end">20:35</td>
+                            </tr>
+                            <tr id="tour2" class="collapse cell-1 row-child">
+                                <td>10/12</td>
+                                <td colspan="1" class="text-center">Liquid</td>
+                                <td colspan="1" class="text-center">0 : 2</td>
+                                <td colspan="1" class="text-center">KRU</td>
+                                <td colspan="2" align="end">19:30</td>
+                            </tr>
+                            <tr id="tour2" class="collapse cell-1 row-child">
+                                <td>11/12</td>
+                                <td colspan="1" class="text-center">Cloud9</td>
+                                <td colspan="1" class="text-center">2 : 0</td>
+                                <td colspan="1" class="text-center">KRU</td>
+                                <td colspan="2" align="end">16:40</td>
+                            </tr>
+                            <tr id="tour2" class="collapse cell-1 row-child">
+                                <td>11/12</td>
+                                <td colspan="1" class="text-center">100 Thieves</td>
+                                <td colspan="1" class="text-center">3 : 0</td>
+                                <td colspan="1" class="text-center">Cloud9</td>
+                                <td colspan="2" align="end">19:50</td>
+                            </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                    <div class="section_title text-center mb-65" style="margin-bottom: 0px; margin-top: 30px">
+                        <h3>Будущие матчи</h3>
+                    </div>
+                    <table class="table">
+                        <tbody class="table-body">
+                        <tr class="cell-1" data-toggle="collapse" data-target="#demo">
+                            <td>14/12 - 18/12</td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td colspan="2" align="end">BLAST Premier World Final 2022</td>
+                        </tr>
+                        <tr class="cell-1" data-toggle="collapse" data-target="#demo-2">
+                            <td>02/02 - 12/02</td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td colspan="2" align="end">IEM Katowice 2023</td>
+                        </tr>
+                        </tbody>
+                    </table>
+                </div>
+                <div class="col-lg-4">
+                        <div class="blog_right_sidebar">
+                            <div class="section_title text-center mb-65">
+                                <h3>Новости</h3>
+                            </div>
+                            <aside class="single_sidebar_widget popular_post_widget">
+                                <div class="media post_item">
+                                    <img src="../img/post/post_1.png" alt="post">
+                                    <div class="media-body">
+                                        <a href="single-blog.html">
+                                            <h3>Травоман о Virtus.Pro</h3>
+                                        </a>
+                                        <p>Декабрь 11</p>
+                                    </div>
+                                </div>
+                                <div class="media post_item">
+                                    <img src="../img/post/post_2.png" alt="post">
+                                    <div class="media-body">
+                                        <a href="single-blog.html">
+                                            <h3>Dosia о BLAST Premier: World Final 2022</h3>
+                                        </a>
+                                        <p>02 часа назад</p>
+                                    </div>
+                                </div>
+                                <div class="media post_item">
+                                    <img src="../img/post/post_3.png" alt="post">
+                                    <div class="media-body">
+                                        <a href="single-blog.html">
+                                            <h3>Lil о DPC 2023</h3>
+                                        </a>
+                                        <p>03 часа назад</p>
+                                    </div>
+                                </div>
+                                <div class="media post_item">
+                                    <img src="../img/post/post_4.png" alt="post">
+                                    <div class="media-body">
+                                        <a href="single-blog.html">
+                                            <h3>21:25 Degster о вылете Португалии с ЧМ</h3>
+                                        </a>
+                                        <p>01 час назад</p>
+                                    </div>
+                                </div>
+                            </aside>
+                        </div>
+                    </div>
+            </div>
+        </div>
+    <!-- подвал -->
+    <footer class="footer">
+        <div class="section-top-border">
+            <div class="footer_top">
+            <div class="container">
+                <div class="row">
+                    <div class="col-xl-6 col-md-6">
+                            <div class="footer_widget">
+                                <div class="subscribe-from">
+                                        <form action="#">
+                                                <input type="text" placeholder="Введите электронную почту">
+                                                <button type="submit" >Подписаться</button>
+                                            </form>
+                                </div>
+                                <p class="sub_text">Получайте новости о киберспорте раньше других</p>
+                                </div>
+                    </div>
+                    <div class="col-xl-5 col-md-5 offset-xl-1">
+                        <div class="footer_widget">
+                            <a class="boxed-btn3" href="contact.html">Оставить отзыв</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        </div>
+            <div class="copy-right_text">
+            <div class="container">
+                <div class="footer_border"></div>
+                <div class="row">
+                    <div class="col-xl-7 col-md-6">
+                        <p class="copy_right">
+                            Created by Zhdanova Ksenia Viktorovna (IKBO-03-21) with<i class="fa fa-heart-o" aria-hidden="true"></i>
+                        </p>
+                    </div>
+                    <div class="col-xl-5 col-md-6">
+                        <div class="footer_links">
+                            <ul>
+                                <li><a href="index.html">Главная</a></li>
+                                <li><a href="about.html">О нас</a></li>
+                                <li><a href="news.html">Новости</a></li>
+                                <li><a href="tournaments.html">Турниры</a></li>
+                                <li><a href="shop-prev.html">Магазин</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!-- !подвал  -->
+
+    <!-- link that opens popup -->
+
+    <!-- JS here -->
+    <script src="js/vendor/jquery-1.12.4.min.js"></script>
+    <script src="js/popper.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="/js/bootstrap_4_4_1.js"></script>
+    <script src="js/jquery.slicknav.min.js"></script>
+    <script src="js/jquery.magnific-popup.min.js"></script>
+    <script src="js/slick.min.js"></script>
+
+    <script src="js/main.js"></script>
+</body>
+
+</html>
