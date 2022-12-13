@@ -1,0 +1,27 @@
+[value="ВСЕ"]:checked ~ .filters [for="ВСЕ"],
+[value="LOL"]:checked ~ .filters [for="LOL"],
+[value="DOTA2"]:checked ~ .filters [for="DOTA2"],
+[value="CS:GO"]:checked ~ .filters [for="CS:GO"],
+[value="VALORANT"]:checked ~ .filters [for="VALORANT"],
+[value="APEX"]:checked ~ .filters [for="APEX"],
+[value="ТУРНИРЫ"]:checked ~ .filters [for="ТУРНИРЫ"],
+[value="ИГРОКИ"]:checked ~ .filters [for="ИГРОКИ"],
+[value="ИГРЫ"]:checked ~ .filters [for="ИГРЫ"]
+{
+    color: var(--white);
+}
+
+[value="ВСЕ"]:checked ~ .posts [data-category] {
+    display: block;
+}
+
+[value="LOL"]:checked ~ .posts .post:not([data-category~="LOL"]),
+[value="DOTA2"]:checked ~ .posts .post:not([data-category~="DOTA2"]),
+[value="CS:GO"]:checked ~ .posts .post:not([data-category~="CS:GO"]),
+[value="VALORANT"]:checked ~ .posts .post:not([data-category~="VALORANT"]),
+[value="APEX"]:checked ~ .posts .post:not([data-category~="APEX"]),
+[value="ТУРНИРЫ"]:checked ~ .posts .post:not([data-category~="ТУРНИРЫ"]),
+[value="ИГРОКИ"]:checked ~ .posts .post:not([data-category~="ИГРОКИ"]),
+[value="ИГРЫ"]:checked ~ .posts .post:not([data-category~="ИГРЫ"]){
+    display: none;
+}
