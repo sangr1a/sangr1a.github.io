@@ -9,11 +9,11 @@ function setTheme(themeName) {
 function toggleTheme() {
     if (localStorage.getItem('theme') === 'theme-light'){
         setTheme('theme-dark');
-        img.innerHTML = '<img src="img/logo.png" style="height: 36px; width: 130px; alt="">';
+        img.innerHTML = '<img src="../img/logo.png" style="height: 36px; width: 130px; alt="">';
         document.getElementById("favicon").href = 'img\\favicon.png';
     } else {
         setTheme('theme-light');
-        img.innerHTML = '<img src="img/black_logo.png" style="height: 36px; width: 130px; alt="">';
+        img.innerHTML = '<img src="../img/black_logo.png" style="height: 36px; width: 130px; alt="">';
         document.getElementById("favicon").href = 'img\\favicon-white.png';
     }
 }
@@ -30,11 +30,11 @@ btn.addEventListener('click', function handleClick() {
 (function () {
     if (localStorage.getItem('theme') === 'theme-light'){
         setTheme('theme-light');
-        img.innerHTML = '<img src="img/black_logo.png" style="height: 36px; width: 130px; alt="">';
+        img.innerHTML = '<img src="../img/black_logo.png" style="height: 36px; width: 130px; alt="">';
         document.getElementById("favicon").href = 'img\\favicon-white.png';
     } else {
         setTheme('theme-dark');
-        img.innerHTML = '<img src="img/logo.png" style="height: 36px; width: 130px; alt="">';
+        img.innerHTML = '<img src="../img/logo.png" style="height: 36px; width: 130px; alt="">';
         document.getElementById("favicon").href = 'img\\favicon.png';
     }
 })();
