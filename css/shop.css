@@ -6,8 +6,7 @@
     margin: 0 auto;
     margin-top: 30px;
     min-width: 350px;
-    display: flex;
-    flex-direction: column;
+    display: grid;
 }
 .section-header {
     font-weight: normal;
@@ -55,13 +54,14 @@
 }
 
 .btn-primary:hover {
-    background-color: rgb(187 187 187);
+    background-color: var(--success);
 }
 
 .tour-row {
     border-bottom: 1px solid black;
     padding-bottom: 1em;
     margin-bottom: 1em;
+    display: grid;
 }
 
 .tour-row:last-child {
@@ -75,16 +75,13 @@
 
 .tour-date {
     color: #555;
-    width: 11%;
     font-weight: bold;
 }
 
 .tour-city {
-    width: 42%;
 }
 
 .tour-arena {
-    width: 24%;
 }
 
 .tour-btn {
@@ -182,17 +179,18 @@
 }
 
 .btn-all {
-    color: white;
-    background-color: #EB5757;
+    color: var(--font-color);
+    background-color: var(--color-primary);
     border: none;
     font-weight: bold;
     display: block;
     margin: 40px auto 80px auto;
     font-size: 1.75em;
+    border-radius: 0;
 }
 
 .btn-all:hover {
-    background-color: #CC4C4C;
+    background-color: #b20000;
 }
 
 .btn-cont{
@@ -243,4 +241,5 @@
     display: block;
     margin: 40px auto 80px auto;
     font-size: 1.75em;
+    border-radius: 0;
 }
