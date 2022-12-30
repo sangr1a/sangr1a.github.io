@@ -1,12 +1,14 @@
 .content-section {
     margin: 1em;
+    display: grid;
+    justify-content: center;
+    justify-items: center;
 }
 
 .container {
     margin: 0 auto;
     margin-top: 30px;
     min-width: 350px;
-    display: grid;
 }
 .section-header {
     font-weight: normal;
@@ -89,14 +91,14 @@
 }
 
 .shop-item {
-    margin: 30px;
+    margin-bottom: 30px;
     display: flex;
     flex-direction: column;
 }
 
 .shop-item-title {
     display: block;
-    width: 400px;
+    width: 389px;
     text-align: center;
     font-weight: bold;
     font-size: 1.5em;
